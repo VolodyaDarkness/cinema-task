@@ -1,5 +1,9 @@
-const initialValues ={
-	movies: []
-};
+import {combineReducers} from "redux";
 
-export const rootReducer = (state = initialValues, action) => {};
+import {data} from "./data";
+import {loading} from "./loading";
+
+export const rootReducer = combineReducers ({
+	loading,
+	data
+}) ;

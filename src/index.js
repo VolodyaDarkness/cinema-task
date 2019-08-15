@@ -5,7 +5,7 @@ import {store, history} from './store';
 import {Router} from 'react-router-dom';
 
 import './style/index.css';
-import App from './containers/App';
+import App from './components/App';
 
 ReactDOM.render(
 	<Provider store={store}>
